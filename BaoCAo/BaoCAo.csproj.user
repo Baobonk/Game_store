@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CustomForm\buffered.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Categories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\fBody.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\GameandComments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Gameinfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\GameRecom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\GameShowRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Opacity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="CustomForm\pCate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\SearchResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Testing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CustomForm\Usrcomments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

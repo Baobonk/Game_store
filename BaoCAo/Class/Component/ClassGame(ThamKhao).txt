@@ -1,0 +1,270 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
+
+namespace BaoCAo.Class.Component
+{
+    internal class Game
+    {
+        private int gameID;
+        private string title;
+        private string detail;
+        private List<string> genres;
+        private float price;
+        private int publisherID; // ID của Publisher sở hữu game này
+        private List<int> userIDs; // ID của các tài khoản sở hữu game này
+
+        public Game(int gameID, string title, string detail, List<string> genres, float price, int publisherID)
+        {
+            this.gameID = gameID;
+            this.title = title;
+            this.detail = detail;
+            this.genres = genres;
+            this.price = price;
+            this.publisherID = publisherID;
+            this.userIDs = new List<int>();
+        }
+
+        // Các thuộc tính với phương thức get và set
+        public int GameID
+        {
+            get { return gameID; }
+            set { gameID = value; }
+        }
+
+        public string Title
+        {
+            get { return title; }
+            set { title = value; }
+        }
+
+        public string Detail
+        {
+            get { return detail; }
+            set { detail = value; }
+        }
+
+        public List<string> Genres
+        {
+            get { return genres; }
+            set { genres = value; }
+        }
+
+        public float Price
+        {
+            get { return price; }
+            set { price = value; }
+        }
+
+        public int PublisherID
+        {
+            get { return publisherID; }
+            set { publisherID = value; }
+        }
+
+        public List<int> UserIDs
+        {
+            get { return userIDs; }
+            set { userIDs = value; }
+        }
+
+        // Phương thức để thêm người dùng sở hữu game
+        public void AddUser(int userID)
+        {
+            if (!userIDs.Contains(userID))
+            {
+                userIDs.Add(userID);
+            }
+        }
+
+        // Phương thức để thêm thể loại vào game
+        public void AddGenre(string genre)
+        {
+            if (!Genres.Contains(genre))
+            {
+                Genres.Add(genre);
+            }
+        }
+
+        // Phương thức để xóa thể loại khỏi game
+        public void RemoveGenre(string genre)
+        {
+            Genres.Remove(genre);
+        }
+
+        // Phương thức để lấy tất cả các game
+        public static List<Game> GetAllGames()
+        {
+            var games = new List<Game>();
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "SELECT * FROM Games";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var genres = new List<string>(); // Cần lấy danh sách thể loại từ db
+                            var game = new Game(
+                                reader.GetInt32(0), // GameID
+                                reader.GetString(1), // Title
+                                reader.GetString(2), // Detail
+                                genres,
+                                reader.GetFloat(3), // Price
+                                reader.GetInt32(4)  // PublisherID
+                            );
+                            games.Add(game);
+                        }
+                    }
+                }
+            }
+            return games;
+        }
+
+        // Phương thức để tìm kiếm game theo ID
+        public static Game SearchByID(int gameID)
+        {
+            Game game = null;
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "SELECT * FROM Games WHERE GameID = @GameID";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@GameID", gameID);
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            var genres = new List<string>(); // Cần lấy danh sách thể loại từ db
+                            game = new Game(
+                                reader.GetInt32(0), // GameID
+                                reader.GetString(1), // Title
+                                reader.GetString(2), // Detail
+                                genres,
+                                reader.GetFloat(3), // Price
+                                reader.GetInt32(4)  // PublisherID
+                            );
+                        }
+                    }
+                }
+            }
+            return game;
+        }
+
+        // Phương thức để tìm kiếm game theo tên
+        public static List<Game> SearchByName(string name)
+        {
+            var games = new List<Game>();
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "SELECT * FROM Games WHERE Title LIKE @Title";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@Title", "%" + name + "%");
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var genres = new List<string>(); // Cần lấy danh sách thể loại từ db
+                            var game = new Game(
+                                reader.GetInt32(0), // GameID
+                                reader.GetString(1), // Title
+                                reader.GetString(2), // Detail
+                                genres,
+                                reader.GetFloat(3), // Price
+                                reader.GetInt32(4)  // PublisherID
+                            );
+                            games.Add(game);
+                        }
+                    }
+                }
+            }
+            return games;
+        }
+
+        // Phương thức để tải lên game mới
+        public void UploadGame()
+        {
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "INSERT INTO Games (Title, Detail, Price, PublisherID) VALUES (@Title, @Detail, @Price, @PublisherID)";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@Title", this.Title);
+                    cmd.Parameters.AddWithValue("@Detail", this.Detail);
+                    cmd.Parameters.AddWithValue("@Price", this.Price);
+                    cmd.Parameters.AddWithValue("@PublisherID", this.PublisherID);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Phương thức để phê duyệt game
+        public static void ApproveGame(int gameID)
+        {
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "UPDATE Games SET Approved = 1 WHERE GameID = @GameID";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@GameID", gameID);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Phương thức để từ chối game
+        public static void DenyGame(int gameID)
+        {
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "DELETE FROM Games WHERE GameID = @GameID";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@GameID", gameID);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Phương thức để xóa game
+        public static void DeleteGame(int gameID)
+        {
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "DELETE FROM Games WHERE GameID = @GameID";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@GameID", gameID);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Phương thức để chỉnh sửa thông tin game
+        public void EditInformGame()
+        {
+            using (var connection = new SqlConnection("your_connection_string"))
+            {
+                connection.Open();
+                var query = "UPDATE Games SET Title = @Title, Detail = @Detail, Price = @Price WHERE GameID = @GameID";
+                using (var cmd = new SqlCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@GameID", this.GameID);
+                    cmd.Parameters.AddWithValue("@Title", this.Title);
+                    cmd.Parameters.AddWithValue("@Detail", this.Detail);
+                    cmd.Parameters.AddWithValue("@Price", this.Price);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
+    }
+}

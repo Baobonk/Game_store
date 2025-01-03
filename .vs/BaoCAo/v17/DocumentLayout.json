@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BaoCAo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\connection\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\gameshowroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\gameshowroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\gamerecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\gamerecom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\gameinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\gameinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\buffered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\buffered.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\gameandcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\gameandcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\gameandcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\gameandcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\opacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\opacity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\pcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\pcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\usrcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\usrcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\usrcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\usrcomments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|D:\\BaoCAo\\baocao\\customform\\fbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\fbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\register.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\class\\component\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\class\\component\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\searchresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|d:\\baocao\\baocao\\customform\\fbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273D85F5-8972-4CC3-B585-18A0D5026546}|BaoCAo\\BaoCAo.csproj|solutionrelative:baocao\\customform\\fbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Main.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Main.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Main.cs",
+              "RelativeToolTip": "BaoCAo\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:10:48.401Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "fBody.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\fBody.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\fBody.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\fBody.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\fBody.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:18:53.204Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Search.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Search.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Search.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Search.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Search.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T07:33:44.26Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchResults.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\SearchResults.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\SearchResults.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\SearchResults.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\SearchResults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:34:15.164Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Cart.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\Cart.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Cart.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\Cart.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:06:46.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Admin.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\Admin.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Admin.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\Admin.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:06:16.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\User.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\User.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\User.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\User.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAiwI8AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:34:21.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Rating.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\Rating.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Rating.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:34:20.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Connection\\Connect.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Connection\\Connect.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Connection\\Connect.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Connection\\Connect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:09:40.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Login.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:08:21.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameRecom.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameRecom.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\GameRecom.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameRecom.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\GameRecom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:28:13.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameShowRoom.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameShowRoom.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\GameShowRoom.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameShowRoom.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\GameShowRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:28:15.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Game.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\Game.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Game.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:17:43.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Login.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Login.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:08:24.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "buffered.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\buffered.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\buffered.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\buffered.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\buffered.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:31:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Gameinfo.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Gameinfo.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Gameinfo.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Gameinfo.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Gameinfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:28:11.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameandComments.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameandComments.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\GameandComments.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameandComments.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\GameandComments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:30:19.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Opacity.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Opacity.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Opacity.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Opacity.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Opacity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:30:02.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameandComments.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameandComments.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\GameandComments.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\GameandComments.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\GameandComments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:28:02.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "pCate.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\pCate.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\pCate.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\pCate.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\pCate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:30:01.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Register.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Register.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Register.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:59.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Search.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Search.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Search.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Search.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Search.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:58.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SearchResults.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\SearchResults.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\SearchResults.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\SearchResults.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\SearchResults.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:55.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Testing.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Testing.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Testing.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Testing.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Testing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:54.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Usrcomments.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Usrcomments.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Usrcomments.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Usrcomments.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Usrcomments.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:36.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Usrcomments.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Usrcomments.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Usrcomments.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Usrcomments.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Usrcomments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:29:33.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "fBody.cs [Design]",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\fBody.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\fBody.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\fBody.cs [Design]",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\fBody.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:19:47.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Login.Designer.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Login.Designer.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Login.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:14:37.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Program.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Program.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Program.cs",
+              "RelativeToolTip": "BaoCAo\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:12:52.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Main.Designer.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Main.Designer.cs",
+              "RelativeToolTip": "BaoCAo\\Main.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:12:42.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.Designer.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Register.Designer.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\CustomForm\\Register.Designer.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\CustomForm\\Register.Designer.cs",
+              "RelativeToolTip": "BaoCAo\\CustomForm\\Register.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:10:23.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Customer.cs",
+              "RelativeDocumentMoniker": "BaoCAo\\Class\\Component\\Customer.cs",
+              "ToolTip": "D:\\BaoCAo\\BaoCAo\\Class\\Component\\Customer.cs",
+              "RelativeToolTip": "BaoCAo\\Class\\Component\\Customer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T09:04:14.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
